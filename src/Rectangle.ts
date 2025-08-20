@@ -10,6 +10,10 @@ class Rectangle {
     calculateArea(){
         return this.width * this.height;
     }
+
+    calculatePerimeter(){
+        return 2* (this.width + this.height);
+    }
 }
 
 module.exports = Rectangle
