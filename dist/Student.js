@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Person = require("./Person");
 class Student extends Person {
+    grade;
     constructor(name, age, grade) {
         super(name, age);
         this.grade = grade;
