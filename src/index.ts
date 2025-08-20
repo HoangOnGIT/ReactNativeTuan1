@@ -15,7 +15,7 @@ p.displayName()
 
 //Bai 3 + 4
 
-const r = new Rectangle(10,12)
+const r = new Rectangle(10, 12)
 
 console.log("Area of r: " + r.calculateArea())
 
@@ -44,4 +44,34 @@ const d = new Dog("Kiki")
 
 d.bark()
 
+//Bai 12 
 
+interface Swimmable {
+    swim(): void;
+}
+
+interface Flyable {
+    fly(): void;
+}
+
+class Bird implements Flyable {
+    constructor() { }
+
+    fly() {
+        console.log("Flying ...");
+    }
+}
+
+class Fish implements Swimmable {
+    constructor() { }
+
+    swim() {
+        console.log("Swimming ...");
+    }
+}
+
+const b = new Bird()
+b.fly()
+
+const f = new Fish()
+f.swim()

@@ -32,3 +32,19 @@ console.log(products.filter(product => product.price > 100));
 // Bai 9 + Bai 11 
 const d = new Dog("Kiki");
 d.bark();
+class Bird {
+    constructor() { }
+    fly() {
+        console.log("Flying ...");
+    }
+}
+class Fish {
+    constructor() { }
+    swim() {
+        console.log("Swimming ...");
+    }
+}
+const b = new Bird();
+b.fly();
+const f = new Fish();
+f.swim();
