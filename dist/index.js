@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Person = require("./Person");
 const Student = require("./Student");
 const Rectangle = require("./Rectangle");
+const Dog = require("./Dog");
 const s = new Student("Hoang", 12, 10);
 const p = new Person("Ho", 20);
 //Bai 1 + 2
@@ -28,3 +29,6 @@ const products = [
 ];
 console.log("Products with price gt than 100" + r.calculatePerimeter());
 console.log(products.filter(product => product.price > 100));
+// Bai 9 + Bai 11 
+const d = new Dog("Kiki");
+d.bark();

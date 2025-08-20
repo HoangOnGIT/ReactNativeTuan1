@@ -1,8 +1,7 @@
 const Person = require("./Person")
 const Student = require("./Student")
 const Rectangle = require("./Rectangle")
-
-
+const Dog = require("./Dog")
 
 const s = new Student("Hoang", 12, 10)
 
@@ -39,5 +38,10 @@ const products = [
 console.log("Products with price gt than 100" + r.calculatePerimeter())
 console.log(products.filter(product => product.price > 100))
 
+// Bai 9 + Bai 11 
+
+const d = new Dog("Kiki")
+
+d.bark()
 
 
