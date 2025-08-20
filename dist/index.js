@@ -11,7 +11,7 @@ p.displayName();
 //Bai 3 + 4
 const r = new Rectangle(10, 12);
 console.log("Area of r: " + r.calculateArea());
-console.log("Area of p: " + r.calculatePerimeter());
+console.log("Perimeter of p: " + r.calculatePerimeter());
 //Bai 7 + 8
 const Product = require('./Product');
 const products = [
@@ -26,4 +26,5 @@ const products = [
     new Product("Webcam", 75),
     new Product("Router", 90)
 ];
+console.log("Products with price gt than 100" + r.calculatePerimeter());
 console.log(products.filter(product => product.price > 100));

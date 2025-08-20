@@ -24,7 +24,6 @@ console.log("Perimeter of p: " + r.calculatePerimeter())
 //Bai 7 + 8
 
 const Product = require('./Product');
-
 const products = [
     new Product("Laptop", 1200),
     new Product("Smartphone", 800),
@@ -37,7 +36,7 @@ const products = [
     new Product("Webcam", 75),
     new Product("Router", 90)
 ];
-
+console.log("Products with price gt than 100" + r.calculatePerimeter())
 console.log(products.filter(product => product.price > 100))
 
 
